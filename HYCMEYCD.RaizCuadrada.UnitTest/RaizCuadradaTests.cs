@@ -13,14 +13,14 @@ namespace HYCMEYCD20241028.Tests
     {
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void CalcularRaizCuadrada_Negativo_LanzaExcepcion()
+        public void CalcularRaizCuadrada_Negativo()
         {
             RaizCuadrada raizCuadrada = new RaizCuadrada();
             raizCuadrada.Raiz(-2);
         }
 
         [TestMethod]
-        public void CalcularRaizCuadrada_Positivo_DevuelveRaizCuadrada()
+        public void CalcularRaizCuadrada_Positivo()
         {
             RaizCuadrada raizCuadrada = new RaizCuadrada();
             double result = raizCuadrada.Raiz(4);
@@ -28,7 +28,7 @@ namespace HYCMEYCD20241028.Tests
         }
 
         [TestMethod]
-        public void CalcularRaizCuadrada_Cero_DevuelveCero()
+        public void CalcularRaizCuadrada_Cero()
         {
             RaizCuadrada raizCuadrada = new RaizCuadrada();
             double result = raizCuadrada.Raiz(0);
