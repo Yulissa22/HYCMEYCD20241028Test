@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYCMEYCD20241028", "HYCMEYCD20241028\HYCMEYCD20241028.csproj", "{493CA524-1972-4607-BE52-2A5D751AB3C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYCMEYCD.RaizCuadrada.UnitTest", "HYCMEYCD.RaizCuadrada.UnitTest\HYCMEYCD.RaizCuadrada.UnitTest.csproj", "{91A97178-B48C-42AA-A151-BFC690B06422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{493CA524-1972-4607-BE52-2A5D751AB3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493CA524-1972-4607-BE52-2A5D751AB3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493CA524-1972-4607-BE52-2A5D751AB3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493CA524-1972-4607-BE52-2A5D751AB3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A97178-B48C-42AA-A151-BFC690B06422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A97178-B48C-42AA-A151-BFC690B06422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A97178-B48C-42AA-A151-BFC690B06422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A97178-B48C-42AA-A151-BFC690B06422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {050A8CDA-0CC2-4131-809A-B1C9ACB2C87C}
+	EndGlobalSection
+EndGlobal
